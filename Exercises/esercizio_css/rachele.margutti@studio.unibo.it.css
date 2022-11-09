@@ -1,0 +1,74 @@
+* {
+    font-size: 100%;
+    font-family: monospace;
+}
+
+header {
+    background-image: linear-gradient(to bottom right, pink, yellow, pink, purple);
+    width: 100%;
+    text-align: right;
+    font-size: 200%;
+    color: purple;
+    border-bottom: 3px solid purple;
+    padding: 1.75% 0;
+}
+
+section {
+    float: right;
+    margin-top: 15px;
+    width: 50%;
+    margin-right: 2%;
+}
+
+section * {
+    text-align: left;
+    color: black;
+}
+
+nav {
+    width: 15%;
+    float: left;
+    margin: 10px;
+    background-image: linear-gradient(to bottom right, pink, yellow, pink, purple);
+    border-bottom: 3px solid purple;
+    border-top: 3px solid purple;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: square;
+    text-align: left;
+    line-height: 200%;
+}
+
+nav:hover {
+    background-image: linear-gradient(to bottom right, purple, pink, yellow, pink);
+}
+
+nav ul li a:hover {
+    background-color: purple;
+    color: white;
+    padding: 1%;
+    font-weight: bold;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    color: purple;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+footer {
+    width: 100%;
+    color: purple;
+    text-align: center;
+    font-size: 80%;
+    background-image: linear-gradient(to bottom right, purple, pink, yellow, pink);
+    border-top: 3px solid purple;
+    clear: both;
+    bottom: 5%;
+    padding: 5px 0;
+    margin-right: 2%;
+}
